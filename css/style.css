@@ -1,0 +1,40 @@
+body {
+    background-color: #2e2bdb1c;
+}
+
+/**RodaPé**/
+
+.rodape {
+    float: center;
+    text-align: center;
+}
+
+.bgGradient {
+    background: linear-gradient(to right, #4e79ca, #2d2bdb);
+}
+
+.socialIcons a {
+    font-size: 1.5em;
+    color: #FFF;
+    margin-right: 2%;
+    opacity: 0.7;
+}
+
+.socialIcons a:last-child {
+    margin-right: 0;
+}
+
+.socialIcons a:hover {
+    opacity: 2;
+}
+
+.icondesenvolvedor {
+    font-size: 1em;
+    color: #FFF;
+}
+
+.direitos {
+    margin-top: 1%;
+    color: #FFF;
+    opacity: 0.7;
+}

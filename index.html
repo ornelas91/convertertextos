@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/bulma.min.css">
+    <link rel="stylesheet" href="css/style.css">
+    <script src="https://kit.fontawesome.com/b1a188d194.js" crossorigin="anonymous"></script>
+    <script type="text/javascript" src="http://code.jquery.com/jquery-1.8.2.js"></script>
+    <title>Converter Textos</title>   
+</head>
+<body>
+
+    <section class="section">
+        <div class="container">
+            <div class="columns is-centered">
+                <div class="column is-half">
+                    <h1 class="title has-text-centered">Converter Textos</h1>
+                
+                        <div class="field">
+                            <label class="label">Texto</label>
+                            <div class="control">
+                                <textarea id="texto" name="mensagem" class="textarea" placeholder="Digite seu texto" maxlength="20000"></textarea>
+                            </div>
+                        </div>
+
+                        <div class="field">
+                            <label class="label">LETRAS MAIÚSCULAS</label>
+                            <div class="control">
+                                <textarea id="campomai" name="mensagem" class="textarea" placeholder="TUDO EM MAIÚSCULAS" maxlength="20000"></textarea>
+                            </div>
+                        </div>
+
+                        <div class="field">
+                            <label class="label">letras minúsculas</label>
+                            <div class="control">
+                                <textarea id="campomin" name="mensagem" class="textarea" placeholder="tudo em minúsculas" maxlength="20000"></textarea>
+                            </div>
+                        </div>
+
+                      
+
+                        <div class="field is-grouped">
+                            <p class="control">
+                              <button id="bt" class="button is-link is-rounded">
+                                Converter 
+                              </button>
+                            </p>
+                            <p class="control">
+                              <button id="bt2" class="button is-danger is-outlined">
+                                <span>Limpar</span>
+                                <span class="icon is-small">
+                                  <i class="fas fa-times"></i>
+                                </span>
+                              </button>
+                            </p>
+                          </div>
+
+                    </form>
+
+                    <div id="res"></div>
+
+                </div>
+            </div>
+
+        </div>
+
+    </section>
+
+    <!--Rodapé-->
+    <footer class="rodape bgGradient">
+        <div class="socialIcons">
+            <a href="https://www.facebook.com/ornelas91" target="_blank"><i class="fab fa-facebook-f" title="Facebook"></i></a>
+            <a href="https://www.instagram.com/ornelasalmeida/" target="_blank"><i class="fab fa-instagram" title="Instagram"></i></a>
+            <!--<a href="https://goo.gl/maps/snL7hdfQBnSicvV6A" target="blank"><i class="fas fa-map-marker-alt" title="Localização"></i></a>-->
+            <a  href="mailto:anderson_ornelas91@hotmail.com?subject=Olá"><i class="fas fa-envelope" title="E-mail"></i></a>
+        </div>
+        
+        <p class="direitos">Copyright © Anderson Ornelas 2021. <a class="icondesenvolvedor" href="https://wa.me/5511964282974" target="_blank"><i class="fab fa-whatsapp" title="Whatssapp do desenvolvedor"></i></a></p><br><br>
+
+    </footer>
+
+    <script src="js/jquery.min.js"></script>
+    <script src="js/converter.js"></script>
+</body>
+</html>
