@@ -15,31 +15,33 @@
     <section class="section">
         <div class="container">
             <div class="columns is-centered">
-                <div class="column is-half">
+                <div class="column is-grouped">
                     <h1 class="title has-text-centered">Converter Textos</h1>
                 
                         <div class="field">
                             <label class="label">Texto</label>
                             <div class="control">
-                                <textarea id="texto" name="mensagem" class="textarea" placeholder="Digite seu texto" maxlength="20000"></textarea>
+                                <textarea id="texto" name="mensagem" class="textarea ctext" placeholder="Digite seu texto" maxlength="20000"></textarea>
+                                <!--<button type="button" id="colar" data-clipboard-text="Text to be copied" class="btn0 btn-link">Colar</button>-->
                             </div>
                         </div>
 
                         <div class="field">
                             <label class="label">LETRAS MAIÚSCULAS</label>
                             <div class="control">
-                                <textarea id="campomai" name="mensagem" class="textarea" placeholder="TUDO EM MAIÚSCULAS" maxlength="20000"></textarea>
+                                <textarea readonly=“true” id="campomai" name="mensagem" class="textarea text" placeholder="TUDO EM MAIÚSCULAS" maxlength="20000"></textarea>
+                                <button type="button" id="copy" data-clipboard-text="Text to be copied" class="btn btn-link">Copiar</button>
                             </div>
                         </div>
 
                         <div class="field">
                             <label class="label">letras minúsculas</label>
                             <div class="control">
-                                <textarea id="campomin" name="mensagem" class="textarea" placeholder="tudo em minúsculas" maxlength="20000"></textarea>
+                                <textarea readonly=“true” id="campomin" name="mensagem" class="textarea text2" placeholder="tudo em minúsculas" maxlength="20000"></textarea>
+                                <button type="button" id="copy2" data-clipboard-text="Text to be copied" class="btn2 btn-link">Copiar</button>
                             </div>
                         </div>
 
-                      
 
                         <div class="field is-grouped">
                             <p class="control">

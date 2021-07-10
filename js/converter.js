@@ -20,3 +20,20 @@ function limparDados(){
     document.getElementById('campomin').value='';
     document.getElementById('texto').value='';
 }
+
+let btn = document.querySelector('#copy');
+
+btn.addEventListener('click', function(e) {
+  let textArea = document.querySelector('.text');
+  textArea.select();
+  document.execCommand('copy');
+});
+
+let btn2 = document.querySelector('#copy2');
+
+btn2.addEventListener('click', function(f) {
+  let textArea = document.querySelector('.text2');
+  textArea.select();
+  document.execCommand('copy');
+});
+
