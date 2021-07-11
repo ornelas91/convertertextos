@@ -1,3 +1,4 @@
+//Função de botões
 $(function(){
     $("#bt").click(function(){
         mostraDados();
@@ -8,19 +9,22 @@ $(function(){
         window.location.reload();
     })
 });  
-    
+
+//Função De conerter
 function mostraDados(){
    var nome = $("#texto").val();
    $("#campomai").html(nome.toUpperCase())
    $("#campomin").html(nome.toLowerCase())
 }
-    
+
+//Função de limpar caixas
 function limparDados(){
     document.getElementById('campomai').value='';
     document.getElementById('campomin').value='';
     document.getElementById('texto').value='';
 }
 
+//Copiar textos
 let btn = document.querySelector('#copy');
 
 btn.addEventListener('click', function(e) {
@@ -35,5 +39,14 @@ btn2.addEventListener('click', function(f) {
   let textArea = document.querySelector('.text2');
   textArea.select();
   document.execCommand('copy');
+});
+
+//Contagem de caracteres
+$(document).on("keydown", "#texto", function () {
+  var caracteresRestantes = 50000;
+  var caracteresDigitados = parseInt($(this).val().length);
+  var caracteresRestantes = caracteresRestantes - caracteresDigitados;
+  
+  $(".caracteres").text(caracteresRestantes);
 });
 

@@ -1,5 +1,14 @@
 body {
-    background-color: #8585881c;
+    background-image: url('../img/fundo.jpg');
+}
+
+.title {
+    color: #2d2bdb;
+    font-size: 60px;
+}
+
+.textera {
+    background-color: #dadada;
 }
 
 /**RodaPé**/
@@ -11,7 +20,7 @@ body {
 }
 
 .bgGradient {
-    background: linear-gradient(to right, #4e79ca, #2d2bdb);
+    background: linear-gradient(to right, #2e2f31, #171718);
 }
 
 .socialIcons a {

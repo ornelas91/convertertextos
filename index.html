@@ -4,11 +4,14 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="DESCRIPTION" content="Opçaõ para converter textos em MAIÚSCULAS e minúsculas" />
+    <META NAME="KEYWORDS" CONTENT="converter textos, MAIÚSCULAS, minúsculas" >
+    <link rel="icon" href="./img/txtico.png">
     <link rel="stylesheet" href="css/bulma.min.css">
     <link rel="stylesheet" href="css/style.css">
     <script src="https://kit.fontawesome.com/b1a188d194.js" crossorigin="anonymous"></script>
     <script type="text/javascript" src="http://code.jquery.com/jquery-1.8.2.js"></script>
-    <title>Converter Textos</title>   
+    <title>Converter Textos</title>
 </head>
 <body>
 
@@ -21,7 +24,8 @@
                         <div class="field">
                             <label class="label">Texto</label>
                             <div class="control">
-                                <textarea id="texto" name="mensagem" class="textarea ctext" placeholder="Digite seu texto" maxlength="20000"></textarea>
+                                <textarea id="texto" name="mensagem" class="textarea ctext" placeholder="Digite seu texto" maxlength="50000"></textarea>
+                                <span class="caracteres">50000</span> Restantes <br>
                                 <!--<button type="button" id="colar" data-clipboard-text="Text to be copied" class="btn0 btn-link">Colar</button>-->
                             </div>
                         </div>
@@ -29,7 +33,7 @@
                         <div class="field">
                             <label class="label">LETRAS MAIÚSCULAS</label>
                             <div class="control">
-                                <textarea readonly=“true” id="campomai" name="mensagem" class="textarea text" placeholder="TUDO EM MAIÚSCULAS" maxlength="20000"></textarea>
+                                <textarea readonly=“true” id="campomai" name="mensagem" class="textarea textera text" placeholder="TUDO EM MAIÚSCULAS" maxlength="20000"></textarea>
                                 <button type="button" id="copy" data-clipboard-text="Text to be copied" class="btn btn-link">Copiar</button>
                             </div>
                         </div>
@@ -37,7 +41,7 @@
                         <div class="field">
                             <label class="label">letras minúsculas</label>
                             <div class="control">
-                                <textarea readonly=“true” id="campomin" name="mensagem" class="textarea text2" placeholder="tudo em minúsculas" maxlength="20000"></textarea>
+                                <textarea readonly=“true” id="campomin" name="mensagem" class="textarea textera text2" placeholder="tudo em minúsculas" maxlength="20000"></textarea>
                                 <button type="button" id="copy2" data-clipboard-text="Text to be copied" class="btn2 btn-link">Copiar</button>
                             </div>
                         </div>
