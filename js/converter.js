@@ -43,7 +43,7 @@ btn2.addEventListener('click', function(f) {
 
 //Contagem de caracteres
 $(document).on("keydown", "#texto", function () {
-  var caracteresRestantes = 50000;
+  var caracteresRestantes = 5000;
   var caracteresDigitados = parseInt($(this).val().length);
   var caracteresRestantes = caracteresRestantes - caracteresDigitados;
   

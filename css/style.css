@@ -3,12 +3,17 @@ body {
 }
 
 .title {
-    color: #2d2bdb;
+    color: #ffffff;
     font-size: 60px;
 }
 
 .textera {
     background-color: #dadada;
+}
+
+.label {
+    color: white;
+    font: normal px Arial;
 }
 
 /**RodaPé**/
