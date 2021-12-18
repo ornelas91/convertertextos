@@ -30,7 +30,7 @@ function copiar() {
       let textArea = document.querySelector('.text')
       textArea.select()
       document.execCommand('copy')
-      window.alert('Texto Copiado !')
+      //window.alert('Texto Copiado !')
   }
 }
 
@@ -42,7 +42,7 @@ function copiar2() {
       let textArea = document.querySelector('.text2')
       textArea.select()
       document.execCommand('copy')
-      window.alert('Texto Copiado !')
+      //window.alert('Texto Copiado !')
   }
 }
 
